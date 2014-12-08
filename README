@@ -2,4 +2,13 @@ Adam Gleichsner
 amg188@case.edu
 EECS 325
 
-Project 2 - RTT Measurement Probe
+Project 2 - RTT Measurement Probe and Geolocation Correlator
+
+To start, place a list of IP addresses in the 'targets.txt' file.
+To run the RTT measurement probe, type
+
+sudo python rttMeasurement.py
+
+To run the geographic distance correlator, type
+
+python geoDistance.py
